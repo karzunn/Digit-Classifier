@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digit Classifier</title>
+
+  <!-- Import TensorFlow.js -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+
+</head>
+
+<body>
+<canvas>please update your browser</canvas>
+<br>
+<input type="button" value="check" id="checkButton" style="width: 168px;"/>
+<div id="guess">No model loaded</div>
+<br>
+<input id="json-upload" type="file"/>
+<div>Upload json file</div>
+<br>
+<input id="weights-upload" type="file"/>
+<div>Upload bin file</div>
+<br>
+<br>
+<input type="button" value="upload files" id="upload"/>
+</body>
+
+<!-- Import the main script file -->
+<script src="script.js"></script>
+
+</html>
